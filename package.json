@@ -1,0 +1,32 @@
+{
+  "name": "gulp-compression",
+  "version": "1.0.0",
+  "description": "Gulp basic setup to compress lots of files, whitout needing to import the files in a bundler (like webpack).",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edbmuller/gulp-compression.git"
+  },
+  "keywords": [
+    "gulp",
+    "image",
+    "compression"
+  ],
+  "author": "Eduardo Bonamigo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/edbmuller/gulp-compression/issues"
+  },
+  "homepage": "https://github.com/edbmuller/gulp-compression#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-debug": "^4.0.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-newer": "^1.4.0",
+    "gulp-plumber": "^1.2.1",
+    "imagemin-jpeg-recompress": "^7.0.0",
+    "imagemin-pngquant": "^9.0.1"
+  }
+}
