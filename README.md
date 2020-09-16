@@ -10,7 +10,7 @@
 
 3. Open the terminal at the root of the project and run the command to install the dependencies.
 
-  `npm install`
+	`npm install`
 
 4. Install gulp globally to make sure it work.
 
@@ -18,9 +18,9 @@
 
 5. Run gulp to compress the files.
 
-   `gulp`
+	`gulp`
 
-   This will take all images on `src` folder, compress and paste on the `dist` folder.
+	This will take all images on `src` folder, compress and paste on the `dist` folder.
 
 
 ## Initial Environment Setup
@@ -29,8 +29,4 @@
 
 2. Install [Git](https://git-scm.com/downloads)
 
-	#### Windows
-    
-  * **Install [Python 2.7](https://www.python.org/downloads/)**. Some node modules on npm may rely on node-gyp, which requires Python on Windows.
-  * **Install C++ Compiler**. Browser-sync requires a C++ compiler on Windows.
    
